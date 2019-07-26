@@ -1,0 +1,35 @@
+body {
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+  font-family: monospace;
+}
+
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+div {
+	align-items: center;
+	color: darkslategrey;
+	display: flex;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	pointer-events: none;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 1;
+}
+
+span {
+	font-size: 3em;
+	margin: 0 .5rem;
+}
