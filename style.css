@@ -33,3 +33,35 @@ span {
 	font-size: 3em;
 	margin: 0 .5rem;
 }
+
+#titletext {
+	color: darkslategrey;
+	line-height: 0.5;
+	font-size: 20;
+}
+
+#titletext:hover{
+	color: red;
+}
+
+.navbar_link:hover{
+	font-weight:bold;
+	text-decoration: none;
+	color: black;
+	font-weight: 800;
+}
+
+.navbar_link {
+	text-decoration: none;
+	text-align: right;
+	color: darkslategrey;
+	font-weight: 400;
+}
+
+.navbar {
+	vertical-align: text-top;
+	right: 0;
+	display: inline;
+	margin-right: 50px;
+	letter-spacing: 2px;
+}
