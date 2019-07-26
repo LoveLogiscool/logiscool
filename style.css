@@ -33,3 +33,13 @@ span {
 	font-size: 3em;
 	margin: 0 .5rem;
 }
+
+#logiscool {
+	height: auto; 
+	width: 100;
+}
+
+#logiscool:hover {
+	height: auto; 
+	width: 200;
+}
